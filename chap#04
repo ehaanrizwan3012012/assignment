@@ -1,0 +1,14 @@
+// Q#01: Declare 3 variables in one statement.
+var user = "Ehaan.M.Rizwan,14 Years,Karachi";
+// Q#02: Declare 5 legal & 5 illegal variable names.
+var myname;
+var user;
+var price;
+var firstname;
+var myvariable;
+
+var 1name; // Cannot start with a number
+var my-name; // Hyphen (-) not allowed
+var var; // Reserved keyword
+var first name; // Spaces not allowed
+var @user; // Special character not allowed
