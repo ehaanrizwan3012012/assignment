@@ -1,0 +1,195 @@
+// Q#01: Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser:
+var a = 10;
+
+var value = 10;
+var newvalue = value++;
+console.log(value);
+
+var a = 11;
+
+var value = 11;
+var newvalue = ++value;
+console.log(newvalue);
+
+var a = 12;
+
+var value = 12;
+var newvalue = value--;
+console.log(newvalue);
+
+var a = 11;
+
+var value = 11;
+var newvalue = --value;
+console.log(newvalue);
+
+result = 10;
+console.log(result);
+// Q#02: What will be the output in variables a, b & result after execution of the following script:
+   // var a = 2, b = 1;
+   // var result = --a - --b + ++b + b--;
+        // Explain the output at each stage
+                // --a;
+                // --a - --b;
+                // --a - --b + ++b;
+                // --a - --b + ++b + b--;
+var a = 2;
+var b = 1;
+// var result = --a - --b + ++b + b--;
+// --a;
+var a = 2;
+var value = 2;
+var newvalue = --value;
+console.log(newvalue);
+
+var output = 1;
+// --a - --b;
+var a = 2;
+var value = 2;
+var newvalue = --value;
+console.log(newvalue);
+
+var firstvalue = 1;
+
+var b = 1;
+var value = 1;
+var newvalue = --value;
+console.log(newvalue);
+
+var secondvalue = 0;
+
+var result = firstvalue - secondvalue;
+console.log(result);
+
+var output = 1;
+// --a - --b + ++b;
+var a = 2;
+var value = 2;
+var newvalue = --value;
+console.log(newvalue);
+
+var firstvalue = 1;
+
+var b = 1;
+var value = 1;
+var newvalue = --value;
+console.log(newvalue);
+
+var secondvalue = 0;
+
+var b = 1;
+var value = 1;
+var newvalue = ++value;
+console.log(newvalue);
+
+var thirdvalue = 2;
+
+var result = firstvalue - secondvalue + thirdvalue;
+console.log(result);
+
+var output = 3;
+// --a - --b + ++b + b--
+var a = 2;
+var value = 2;
+var newvalue = --value;
+console.log(newvalue);
+
+var firstvalue = 1;
+
+var b = 1;
+var value = 1;
+var newvalue = --value;
+console.log(newvalue);
+
+var secondvalue = 0;
+
+var b = 1;
+var value = 1;
+var newvalue = ++value;
+console.log(newvalue);
+
+var thirdvalue = 2;
+
+var b = 1;
+var value = 1;
+var newvalue = value--;
+console.log(newvalue);
+
+var fourthvalue = 0;
+
+var result = firstvalue - secondvalue + thirdvalue + fourthvalue;
+console.log(result);
+
+var output = 3;
+// Q#03: Write a program that takes input a name from user & greet the user.
+var username = prompt("Please Enter Your Name");
+console.log(username);
+
+var greet = alert("Hello! " + username + " Welcome To Our Website");
+// Q#05: Write a program to take input a number from user & display its multiplication table on your browser. If user does not enter a new number, multiplication table of 5 should be displayed by default.
+var number = prompt("Enter a number for multiplication table:", 5);
+
+document.write("<h2>Multiplication Table of " + number + "</h2>");
+
+for (var i = 1; i <= 10; i++) {
+    document.write(number + " x " + i + " = " + (number * i) + "<br>");
+}
+// Q#06: Take
+           // a) Take three subjects name from user and store them in 3 different variables.
+           // b) Total marks for each subject is 100, store it in another variable.
+           // c) Take obtained marks for first subject from user and store them in a different variable.
+           // d) Take obtained marks for remaining 2 subjects from user and store them in variables.
+           // e) Now calculate total marks and percentage and show the result in browser like this. (Hint: use table).
+var subject1 = prompt("Enter Subject 1 Name:");
+var subject2 = prompt("Enter Subject 2 Name:");
+var subject3 = prompt("Enter Subject 3 Name:");
+
+var totalMarks = 100;
+
+var marks1 = +prompt("Enter marks for " + subject1);
+var marks2 = +prompt("Enter marks for " + subject2);
+var marks3 = +prompt("Enter marks for " + subject3);
+
+var obtained = marks1 + marks2 + marks3;
+var total = totalMarks * 3;
+var percentage = (obtained / total) * 100;
+
+document.write("<h1>Marks Sheet</h1>");
+
+document.write("<table border='1' cellspacing='0' cellpadding='8'>");
+document.write("<tr>");
+document.write("<th>Subject</th>");
+document.write("<th>Total Marks</th>");
+document.write("<th>Obtained Marks</th>");
+document.write("</tr>");
+
+document.write("<tr>");
+document.write("<td>" + subject1 + "</td>");
+document.write("<td>" + totalMarks + "</td>");
+document.write("<td>" + marks1 + "</td>");
+document.write("</tr>");
+
+document.write("<tr>");
+document.write("<td>" + subject2 + "</td>");
+document.write("<td>" + totalMarks + "</td>");
+document.write("<td>" + marks2 + "</td>");
+document.write("</tr>");
+
+document.write("<tr>");
+document.write("<td>" + subject3 + "</td>");
+document.write("<td>" + totalMarks + "</td>");
+document.write("<td>" + marks3 + "</td>");
+document.write("</tr>");
+
+document.write("<tr>");
+document.write("<th>Total</th>");
+document.write("<th>" + total + "</th>");
+document.write("<th>" + obtained + "</th>");
+document.write("</tr>");
+
+document.write("<tr>");
+document.write("<th colspan='2'>Percentage</th>");
+document.write("<th>" + percentage.toFixed(2) + "%</th>");
+document.write("</tr>");
+
+document.write("</table>");
