@@ -1,4 +1,4 @@
-/ Q#01: write a script to greet your website visitor using JS alert box.
+// Q#01: write a script to greet your website visitor using JS alert box.
 alert("Welcome");
 // Q#02: write a script to display following message on your web page:"error!please enter a valid pasword"
 alert("Error!Please enter a valid password");
