@@ -1,0 +1,6 @@
+// Q#01: declare a variable called age & assign to it your age.show your age in alert box'
+var age = "14 years";
+alert("I am "+age+" old");
+// Q#02: declare and initialize a variable to keep the track of how many times visitor visited this web page.show his/her number of visits on your page.FOR EXAMPLE:"You Have Visited This Page 14 TIMES".
+var track = "7 Times";
+alert("You Have Visited This Page "+track);
