@@ -1,0 +1,151 @@
+// Q#01: write a program that take two numbers and add them in a new variable.show the result in your browser.
+var num1 = 7;
+var num2 = 2;
+var result = num1 + num2;
+console.log(result);
+// Q#02: repeat task 1 for sabtraction,multiplication,division,and modulus.
+        // sabtraction:
+    var num1 = 7;
+    var num2 = 2;
+    var result = num1 - num2;
+    console.log(result);
+        // multiplication:
+    var num1 = 7;
+    var num2 = 2;
+    var result = num1 * num2;
+    console.log(result);
+        // division:
+    var num1 = 7;
+    var num2 = 2;
+    var result = num1 / num2;
+    console.log(result);
+        // modulus:
+    var num1 = 7;
+    var num2 = 2;
+    var result = num1 % num2;
+    console.log(result);
+// Q#03:Do the following using JS Mathematic Expressions:
+            // a. Declare a variable.
+            // b. Show the value of variable in your browser like "Value after variable declaration is: ??".
+            // c. Initialize the variable with some number.
+            // d. Show the value of variable in your browser like "Initial value: 5".
+            // e. Increment the variable.
+            // f. Show the value of variable in your browser like "Value after increment is: 6".
+            // g. Add 7 to the variable.
+            // h. Show the value of variable in your browser like "Value after addition is: 13".
+            // i. Decrement the variable.
+            // j. Show the value of variable in your browser like "Value after decrement is: 12".
+            // k. Show the remainder after dividing the variable's value by 3.
+            // l. Output: "The remainder is: 0".
+// a.
+    var num;
+// b.
+    var num = ??;
+// c.
+    var num = 5;
+// d.
+    var Initial value = 5;
+// e.
+    var num = 5;
+    var newnum = num + 1;
+    console.log(newnum);
+// f.
+    var value after increment = 6;
+// g.
+    var value = 6;
+    var newnum = 7;
+    var result = value + newnum;
+    console.log(result);
+// h.
+    var value after addition = 13;
+// i.
+    var value = 13;
+    var newvalue = num - 1;
+    console.log(newvalue);
+// j.
+    var value after decrement = 12;
+// k.
+    var value = 12;
+    var newvalue = 3;
+    var result = value / newvalue;
+    console.log(result);
+// l.
+    var remainder = 0;
+// Q#04:Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a variable & calculate the cost of buying 5 tickets to a movie. Example output:
+var num1 = 600;
+var num2 = 5;
+var result = num1 * num2;
+console.log(result);
+// output=3000
+// Q#05:Write a script to display multiplication table of any number in your browser.
+var num = 5;
+var statement = "TABLE OF 5";
+console.log(statement);
+
+var num = 5;
+var newnum = 1;
+var result = num * newnum;
+console.log(result);
+
+var num = 5;
+var newnum = 2;
+var result = num * newnum;
+console.log(result);
+
+var num = 5;
+var newnum = 3;
+var result = num * newnum;
+console.log(result);
+
+var num = 5;
+var newnum = 4;
+var result = num * newnum;
+console.log(result);
+
+var num = 5;
+var newnum = 5;
+var result = num * newnum;
+console.log(result);
+
+var num = 5;
+var newnum = 6;
+var result = num * newnum;
+console.log(result);
+
+var num = 5;
+var newnum = 7;
+var result = num * newnum;
+console.log(result);
+
+var num = 5;
+var newnum = 8;
+var result = num * newnum;
+console.log(result);
+
+var num = 5;
+var newnum = 9;
+var result = num * newnum;
+console.log(result);
+
+var num = 5;
+var newnum = 10;
+var result = num * newnum;
+console.log(result);
+// Q#06: The Temperature Converter.It's hot out! Let's make a converter based on the steps here.
+            // a. Store a Celsius temperature into a variable.
+            // b. Convert it to Fahrenheit & output "NNoC is NNoF".
+            // c. Now store a Fahrenheit temperature into a variable.
+            // d. Convert it to Celsius & output "NNoF is NNoC".
+                    // Conversion Formulae:
+                        // °F = (°C × 9/5) + 32
+                        // °C = (°F − 32) × 5/9
+// a.
+    var C = 25;
+// b.
+    var F = (C * 9 / 5) + 32;
+    console.log(F);
+// c.
+    var F = 70; 
+// d.
+    var C = (F - 32) * 5 / 9;
+    console.log(C);
